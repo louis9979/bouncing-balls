@@ -1,8 +1,8 @@
-.button {
-  height: 90px;
-  width: 290px;
-  font-size: 28px;
-  color: white;
-  border: none;
-  background-color: blue;
-  border-radius: 15px; }
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #ececec;
+  box-sizing: border-box; }
