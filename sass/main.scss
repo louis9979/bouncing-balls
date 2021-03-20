@@ -23,7 +23,7 @@ ul {
     background-color: white;
     margin: 0 10px;
     border-radius: 50%;
-    animation: bgColor 5s infinite linear;
+    
     animation: jumping 1.4s ease-in infinite; 
     
 
@@ -38,6 +38,7 @@ ul {
 
     &:nth-child(3) {
       animation-delay: 0.45s;
+      transform: translateX(250px);
     }
 
     &:nth-child(4) {
