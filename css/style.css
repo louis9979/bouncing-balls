@@ -16,4 +16,14 @@ ul {
     width: 30px;
     height: 30px;
     background-color: white;
-    margin: 0 10px; }
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: jumping 0.8s linear infinite; }
+
+@keyframes jumping {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-150px); }
+  100% {
+    transform: translateY(0); } }
