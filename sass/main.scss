@@ -13,7 +13,7 @@ ul {
   padding: 0;
   display: flex; 
   border-bottom: solid transparent; 
-  animation: jumping 10s linear infinite;
+  animation: jumping 3s linear infinite;
  
 
   li {
@@ -75,6 +75,6 @@ ul {
 
   100% {background-color: #FF1493;}
 
-  100% {transform: translateY(-20px);}
+  100% {transform: translateY(-30px);}
 }
 
