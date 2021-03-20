@@ -4,5 +4,16 @@ body {
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-  background-color: #ececec;
+  background-color: #272727;
   box-sizing: border-box; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+  ul li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 0 10px; }
